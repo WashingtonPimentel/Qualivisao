@@ -143,11 +143,17 @@ section {
 }
 
 .content h8 {
-  color: #fefeff;
+  color: var(--main-color);
   font-size: 12rem;
   line-height: 2.5;
   margin-top: 200px;
   margin-bottom: 2000;
+  text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff; /* Cor do contorno */
+  
 }
 
 .content p {
@@ -510,7 +516,7 @@ body {
 }
 
 .slider {
-  margin: 0 auto;
+  margin: 3 auto;
   width: 800px;
   height: 400px;
   overflow: hidden;
@@ -626,8 +632,8 @@ body {
 .convenios {
   max-width: 1160px;
   width: 100%;
-  margin: 0 auto;
-  padding-right: 2%;
+
+  padding-right: 9%;
 }
 
 .convenios .title {
@@ -652,7 +658,7 @@ body {
 
 .btn-enviar:hover {
   letter-spacing: 0.1rem; /* Aumenta o espaçamento entre letras ao passar o mouse */
-  background: var(--main-color-dark); /* Muda a cor de fundo ao passar o mouse */
+  background: var(--main-color); /* Muda a cor de fundo ao passar o mouse */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
 }
 
