@@ -516,7 +516,7 @@ body {
 }
 
 .slider {
-  margin: 3 auto;
+  margin: 0 auto;
   width: 800px;
   height: 400px;
   overflow: hidden;
@@ -629,16 +629,20 @@ body {
   background-color: #fff;
 }
 
-.convenios {
+.convenios .container{
   max-width: 1160px;
   width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px; /* Ajuste o padding para telas menores */
+  align-items: center;
 
-  padding-right: 9%;
 }
 
 .convenios .title {
   margin-top: 20px;
 }
+
+
 
 /* Estilo para o botão "Enviar" */
 .btn-enviar {
@@ -697,3 +701,8 @@ body {
   max-width: 1200px;
   margin: -100px auto;
 }
+
+@media (max-width: 768px) {
+  .slide img {
+    height: auto; /* Let the image scale proportionally */}
+  }
