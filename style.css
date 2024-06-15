@@ -83,11 +83,6 @@ section {
   cursor: pointer;
 }
 
-.icons img:hover {
-  margin: 40px;
-  height: 40px;
-}
-
 .btn {
   background: var(--main-color);
   color: #ffffff;
