@@ -797,3 +797,9 @@ body {
   height: 40px; /* Tamanho original do ícone */
   margin-right: 10px;
 }
+
+
+.floating-text{
+  font-size: 3rem;
+  color: #fff;
+}
