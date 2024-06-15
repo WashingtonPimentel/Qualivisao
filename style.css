@@ -114,7 +114,7 @@ section {
 }
 
 .container-image {
- 
+  
   --height: 20px; /* Define a altura da imagem */
 }
 
@@ -123,6 +123,7 @@ section {
   background: url("./img/fotohome00.jpg");
   background-position: center;
   background-size: cover;
+  
 }
 
 .home-container section {
@@ -635,7 +636,7 @@ body {
   margin: 0 auto;
   padding: 40px 20px; /* Ajuste o padding para telas menores */
   align-items: center;
-
+  padding-right: 30px 10px;
 }
 
 .convenios .title {
@@ -706,3 +707,93 @@ body {
   .slide img {
     height: auto; /* Let the image scale proportionally */}
   }
+
+/* Estilos para a janela flutuante */
+.floating-tab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  max-width: 100%;
+  background-color: #21abec; /* Cor de fundo da aba */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Estilos para o conteúdo dentro da janela flutuante */
+.floating-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.floating-content h4 {
+  font-size: 24px;
+  color: #fff; /* Cor do texto */
+  margin-bottom: 10px;
+}
+
+.floating-content p {
+  font-size: 18px;
+  color: #fff; /* Cor do texto */
+  margin-bottom: 20px;
+}
+
+.floating-content .btn {
+  display: inline-block;
+  background-color: #fff; /* Cor do botão */
+  color: #21abec; /* Cor do texto do botão */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.floating-content .btn:hover {
+  background-color: #eee; /* Cor do botão ao passar o mouse */
+  color: #21abec; /* Cor do texto do botão ao passar o mouse */
+}
+
+.floating-icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.floating-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+/* Estilos para a janela flutuante */
+.floating-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o botão de agendamento */
+.floating-box .btn-agendar {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* Estilos para o ícone do WhatsApp */
+.floating-box .whatsapp-icon {
+  display: block;
+  width: 40px; /* Tamanho original do ícone */
+  height: 40px; /* Tamanho original do ícone */
+  margin-right: 10px;
+}
