@@ -34,3 +34,12 @@ manualBtns.forEach((btn, i) => {
     slideInterval = setInterval(autoSlide, 3000); // Reset interval
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const floatingTab = document.querySelector(".floating-tab");
+    const floatingContent = document.querySelector(".floating-content");
+  
+    floatingTab.addEventListener("click", function () {
+      floatingContent.classList.toggle("show");
+    });
+  });
